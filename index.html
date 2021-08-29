@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Profile</title>
+  <link rel="icon" href="images/Icon.png" type="image/x-icon" />
+  <!-- using FontAwesome -->
+  <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="asserts\font-awesome\css\font-awesome.min.css">
+</head>
+<body>
+  <section>
+  <!-- navigation -->
+    <nav>
+      <!-- logo -->
+      <div class="header-img-container">
+      <img src="images/Logo(Color).png" alt="logo" class="logo">
+      </div>
+      <!-- menu -->
+      <ul>
+        <li><a id="home" class="active">Home</a></li>
+        <li><a href="#about" class="">About</a></li>
+        <li><a href="#services" class="">Services</a></li>
+        <li><a href="#socials" class="">Contact Me</a></li>
+      </ul>
+      <!-- bars -->
+	    <div class="toggle"></div>
+    </nav>
+    <!-- text -->
+    <div class="text-container">
+      <!-- <div class="background"> -->
+        <p>Hello,</p>
+        <p>I'm Paul.</p>
+        <p>I am a Web Developer <br>and Designer</p>
+      <!-- </div> -->
+      <button type="button" onclick="window.location.href='#socials'" class="hire-btn">Hire Me</button>
+    </div>
+  </section>
+  <!-- about section -->
+    <div id="about" class="about-container">
+  <!--img-->
+    <img style="box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);" src="images/Profile.jpg"/>
+<!--about-me-text-->
+    <div class="about-text">
+      <p>About Me</p>
+      <p>Devolper & Designer</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+         incididunt ut labore et dolore magna aliqua. Volutpat lacus laoreet non curabitur
+         gravida arcu ac tortor dignissim. Varius quam quisque id diam vel quam elementum pulvinar.
+         Feugiat in ante metus dictum at. Donec adipiscing tristique risus nec feugiat in fermentum posuere urna.
+         Pellentesque diam volutpat commodo sed egestas egestas. Rhoncus est pellentesque elit ullamcorper
+         dignissim cras. Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus.
+         Adipiscing enim eu turpis egestas pretium<span id="dots">...</span><span id="more">
+         aenean pharetra magna ac. Metus aliquam eleifend mi in. Fusce id velit ut tortor pretium
+         viverra suspendisse potenti nullam. Tristique magna sit amet purus gravida quis blandit.
+         Amet tellus cras adipiscing enim. Est lorem ipsum dolor sit amet consectetur adipiscing elit.
+         Viverra vitae congue eu consequat ac felis. Urna cursus eget nunc scelerisque.
+         Porttitor rhoncus dolor purus non enim praesent.
+    </p>
+    <button onclick="myFunction()" id="myBtn">Read more</button>
+      <button onclick="window.location.href='#socials'">Hire Me</button>
+      <button>Download CV</button>
+    </div>
+
+  </div>
+  <!--services-container---------------------------->
+	<div id="services" class="services ">
+		<!--text-->
+		<div class="services-text ">
+	<p>Services</p>
+	<p>Qualites Requaid</p>
+	<p>if you want make a software for your bussniess conatact me.I make as soon as possibale.You really like my work, if you don&#8217;t i change this until you like if you want make a software for your bussniess conatact me.I make as soon</p>
+			</div>
+		<div class="box-container">
+		<!--1------------->
+			<div class="box-1">
+			<span>1</span>
+			<p class="heading">Web Design</p>
+			<p class="details">if you want make a software for your bussniess conatact me.I make as soon as possibale.You really like my work, if you don&#8217;t i change this until you like if you want.</p>
+			<button>Hire Me</button>
+			</div>
+	   <!--2------------->
+			<div class="box-2">
+			<span>2</span>
+			<p class="heading">Web Devoloment</p>
+			<p class="details">if you want make a software for your bussniess conatact me.I make as soon as possibale.You really like my work, if you don&#8217;t i change this until you like if you want.</p>
+			<button>Hire Me</button>
+			</div>
+		<!--3------------->
+			<div class="box-3">
+			<span>3</span>
+			<p class="heading">Logo Design</p>
+			<p class="details">if you want make a software for your bussniess conatact me.I make as soon as possibale.You really like my work, if you don&#8217;t i change this until you like if you want.</p>
+			<button>Hire Me</button>
+			</div>
+		</div>
+	</div>
+  <!-- contact me-->
+  <div class="contact-me">
+    <p>If you require my services</p>
+    <button type="button" class="tooltip" onclick="window.location.href='mailto:paul.ncube14@gmail.com';">Contact me: <i class="fa fa-envelope"></i></button>
+    <span class="tooltiptext">Wait while redirecting to email</span>
+  </div>
+  <!-- footer -->
+  <footer>
+    <div width="50px" style="background-color:white; box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);" class="footer-img">
+    <img width="200px" style="padding:0px; margin: 0px;" src="images/Logo1.2-01.png" alt="Logo">
+    </div>
+    <p>You can also connect with me on my social media platforms to see more of my work:</p>
+    <!-- social media -->
+    <div id="socials" class="social-icons">
+
+      <a href="#"><i class="fa fa-facebook"></i></a>
+	    <a href="#"><i class="fa fa-twitter"></i></a>
+	    <a href="#"><i class="fa fa-instagram"></i></a>
+	    <!-- <a href="#"><i class="fab fa-youtube"></i></a> -->
+	    <a href="#"><i class="fa fa-whatsapp"></i></a>
+	    <a href="#"><i class="fa fa-github"></i></a>
+
+    </div>
+    <a href="#home" class="btn btn-circle page-scroll">
+        <i class="fa fa-angle-double-up animated"></i>
+    </a>
+    <!-- copyright -->
+    <p>Copyright by <span style="font-family: Kaushan Script;">Partum Artem</span></p>
+  </footer>
+  <!--social-attach-bar-->
+	<div class="social">
+	  <a href="#"><i class="fa fa-facebook"></i></a>
+	  <a href="#"><i class="fa fa-twitter"></i></a>
+	  <a href="#"><i class="fa fa-instagram"></i></a>
+	  <!-- <a href="#"><i class="fab fa-youtube"></i></a> -->
+	  <a href="#"><i class="fa fa-whatsapp"></i></a>
+	  <a href="#"><i class="fa fa-github"></i></a>
+	</div>
+
+  <!--JQUery-------------------->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.toggle').click(function(){
+    $('.toggle').toggleClass('active')
+    $('nav').toggleClass('active')
+  })
+})
+
+// toggles the readmore button
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+
+var zoom = 1;
+var zoomStep = 0.2;
+
+document.getElementById("zoomIn").addEventListener("click",function(){
+zoom += zoomStep; document.getElementById("zoomtext").style.transform = "scale("+zoom+")";});
+
+document.getElementById("zoomOut").addEventListener("click",function(){if(zoom > zoomStep){zoom -= zoomStep; document.getElementById("zoomtext").style.transform = "scale("+zoom+")";}});
+</script>
+</body>
+</html>

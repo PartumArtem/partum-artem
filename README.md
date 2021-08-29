@@ -1,2 +1,2 @@
-# partum-artem
-Official Partum Artem Website 
+# partumartem.github.io
+ Partum Artem website
